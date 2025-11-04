@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrierung</title>
+    <link rel="stylesheet" href="login-registration.css">
+
+</head>
+<body>
+
+    <div class="upper">
+        <h1>Registrierungs_Seite</h1></div>
+</div>
+    <header>
+        <img class="header-img" src="User.png" usemap="#logo" alt="LOGO">
+    </header>
+
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#" class="active">Registrieren</a>
+        <a href="user_login.html">Einloggen</a>
+        <a href="admin_login.html" class="roll">Admin_Seite</a>
+
+    </nav>
+
+
+    
+<div class="container_registrieren">
+
+    <form action="registrierenServlet" method="post">
+
+        <label for="vname">Vorname:</label>
+        <input type="text" id="vname" name="vname"  required><br>
+        <label for="nname">Nachname:</label>
+        <input type="text" id="nname" name="nname"  required><br>
+
+        <label for="add">Addresse:</label>
+        <input type="text" id="add" name="add"  required><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required placeholder="_@_._"><br>
+        <label for="password">Passwort :</label>
+        <input type="password" id="password" name="password" required placeholder="8-15 Zeichen: mind. 1 Groß Buch, 1 klein Buch ,1 Zahl"><br>
+
+        <label for="password2">Passwort wiederholen :</label>
+        <input type="password" id="password2" name="password2" required><br>
+        <button type="submit">Registrieren</button>
+        <br>
+
+    </form>
+    <hr>
+    <p id="error-container" class="error-container" style="color:red;
+    font-size: 20px;
+    font-family: Comic Sans MS">
+    </p>
+
+</div>
+
+
+<script type="text/javascript"  src="registrieren.js"></script>
+
+</body>
+</html>

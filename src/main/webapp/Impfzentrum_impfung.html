@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Center_Vaccine</title>
+    <link rel="stylesheet" type="text/css" href="admin.css">
+</head>
+<body>
+
+<div class="upper">
+    <h1>Impfzentrum-Impfung</h1></div>
+<header>
+    <img class="header-img" src="go.png" usemap="#logo" alt="LOGO">
+</header>
+
+<nav>
+    <a href="Admin_dashboard.html">Startseite</a>
+    <a href="impfzentren.html" >Impfzentren Verwalten</a>
+    <a href="impfung.html" >Impfstoffe Verwalten</a>
+    <a href="Impfzentrum_impfung.html" class="active">Impfzentrum-Impfung</a>
+    <a href="Timeslot.html">Zeitslot verwalten</a>
+
+    <a href="logout" class="roll">Abmelden</a>
+</nav>
+
+</div>
+
+<div class="container">
+    <h3>Bestimmte Impfzentrum für bestimmte Impfung</h3>
+    <form>
+        <label for="impfid">Impfzentrum_id</label>
+        <input type="text" name="impfid" id="impfid" class="input"  placeholder="zB 1/2/3...">
+
+        <label for="impfung">Impfung_id</label>
+        <input type="text" name="impfung" id="impfung" class="input" placeholder="zB 1/2/3...">
+        <button id="btn" onclick="Impfzentrum_impfung()" type="button" value="impf">Hinzufügen</button>
+    </form>
+</div>
+
+<script>
+    function Impfzentrum_impfung() {
+
+        let Impfzentrum_id = document.getElementById("impfid").value;
+        let Impfung_id = document.getElementById("impfung").value;
+
+
+        if (!Impfung_id || !Impfzentrum_id) {
+            alert("Bitte füllen Sie alle Felder aus!");
+            return false;
+
+        } else {
+
+            let request = new XMLHttpRequest();
+            request.onreadystatechange = function () {
+                if (request.readyState == 4 && request.status == 200) {
+                    if (request.responseURL.indexOf("user_login.html") > -1) {
+                        //location.reload(true);
+                        document.querySelector(".container").innerHTML = "<h2 style='color:green'>Bestimmte Impfung für bestimmte Impfzentrum hinzugefügt</h2><br><a href=Impfzentrum_impfung.html><button>Nochmal Hinzufügen</button></button></a> ";
+
+                    }
+                }else if (request.status == 400) {   //BAD Request
+                    alert(request.responseText);
+
+                } else if (request.status == 409) {   // Duplikat Fehler (409)
+                    document.querySelector(".container").innerHTML = "<h2 style='color:red'>"+request.responseText+ "</h2><br><a href=Impfzentrum_impfung.html><button>Nochmal Hinzufügen</button></button></a> ";
+
+                }else {
+                    console.error("Fehler:", req.status, req.statusText); // Protokolliere Fehler
+                    document.querySelector(".container").innerHTML = "<h2 style='color:red'>Etwas Schief gelaufen</h2><br><a href='Timeslot.html'><button>Neue Hinzufügen</button></button></a>";
+                    //else {document.querySelector(".container").innerHTML = "<h2 style='color:red'> Etwas schief gelaufen</h2>";}
+                    // document.querySelector('form').reset();
+                }    //return true;
+            }
+            request.open("POST", "Impfzentrum_impfung", true);
+            request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            request.send("Impfzentrum_id=" + Impfzentrum_id + "&Impfung_id=" + Impfung_id);
+            console.log(Impfzentrum_id, Impfung_id);
+        }
+    }
+
+
+</script>
+
+
+</body>
+</html>

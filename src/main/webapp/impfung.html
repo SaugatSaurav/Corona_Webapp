@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vaccines</title>
+    <link rel="stylesheet" type="text/css" href="admin.css">
+</head>
+
+<body>
+
+<div class="upper">
+    <h1>Impfstoffe Verwalten</h1></div>
+<header>
+    <img class="header-img" src="go.png" usemap="#logo" alt="LOGO">
+</header>
+
+<nav>
+    <a href="Admin_dashboard.html">Startseite</a>
+    <a href="impfzentren.html" >Impfzentren Verwalten</a>
+    <a href="#" class="active">Impfstoffe Verwalten</a>
+    <a href="Impfzentrum_impfung.html">Impfzentrum-Impfung</a>
+    <a href="Timeslot.html">Zeitslot verwalten</a>
+
+    <a href="logout" class="roll">Abmelden</a>
+</nav>
+
+</div>
+
+<div class="container">
+
+    <form>
+        <label for="Name">Impstoff</label>
+        <input type="text" id="Name" name="Name" class="input"><br><br>
+
+        <button id="btn"  onclick="Impfung()" type="button" value="impfung">Impfstoff hinzufügen</button>
+    </form>
+
+    <br><br><br>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Name</th>
+
+        </tr>
+        </thead>
+        <tbody id="inhalt">
+
+        </tbody>
+    </table>
+
+</div>
+
+
+
+
+<script type="text/javascript" src="impfung.js"></script>
+</body>
+</html>

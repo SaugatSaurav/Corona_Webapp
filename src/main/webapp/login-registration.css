@@ -1,0 +1,119 @@
+body {
+    background: aquamarine;
+    padding: 0;
+    margin: 10px;
+}
+header{
+    grid-column: span 4;
+    background: lightgoldenrodyellow;
+    border-bottom: 2px solid black;
+}
+
+.header-img{
+    padding-left: 45px;
+    height: 100px;
+    margin-top: -100px;
+    margin-bottom: 1px;
+    background: lightgoldenrodyellow;
+}
+
+
+.upper{
+    color: blueviolet;
+    background: lightgoldenrodyellow;
+    margin:0;
+    padding:5px;
+    text-align: center;
+
+}
+
+nav {background: lightgoldenrodyellow;color:white;  padding:12px 10px 12px 10px; text-align:center; margin:0px}
+nav a { color:black; text-decoration:none; padding:12px 10px 12px 10px; margin:0px; border-radius: 10px;}
+nav a:hover {background-color:skyblue;}
+
+
+
+.active{
+    background:skyblue;
+}
+
+
+.roll{
+    color: #ffffff;
+    background:green;
+}
+
+
+.roll:hover{
+    background:#006400;
+    color: #ffffff;
+}
+
+.container {
+    width: 80%; /* Relative Breite */
+    max-width: 500px; /* Größere Maximalbreite */
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 1, 0.5);
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    margin: 2vh auto; /* Zentrierung mit automatischen Rändern */
+}
+
+.container_registrieren {
+    width: 80%; /* Relative Breite */
+    max-width: 500px; /* Maximalbreite */
+    padding: 2rem; /* Relative Maßeinheit für Padding */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 1, 0.5);
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    margin: 2rem auto; /* Automatische Zentrierung bei allen Bildschirmgrößen */
+}
+
+
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: blueviolet;
+    font-size:20px;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+button{
+    width: 100%;
+    padding: 12px;
+    background-color:skyblue;
+    color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+button:hover{
+    background-color: gold;
+}
+
+ a {
+    color:blueviolet;
+    text-decoration:none;
+    font-size:26px;
+}
+
+a:hover{
+    color:blue;
+}
+

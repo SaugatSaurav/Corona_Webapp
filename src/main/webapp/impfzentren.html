@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vaccines</title>
+    <link rel="stylesheet" type="text/css" href="admin.css">
+</head>
+<body>
+
+<div class="upper">
+    <h1>Impfzentren Verwalten</h1></div>
+<header>
+    <img class="header-img" src="go.png" usemap="#logo" alt="LOGO">
+</header>
+
+<nav>
+    <a href="Admin_dashboard.html">Startseite</a>
+    <a href="#" class="active" >Impfzentren Verwalten</a>
+    <a href="impfung.html" >Impfstoffe Verwalten</a>
+    <a href="Impfzentrum_impfung.html">Impfzentrum-Impfung</a>
+    <a href="Timeslot.html">Zeitslot verwalten</a>
+
+    <a href="logout" class="roll">Abmelden</a>
+</nav>
+
+</div>
+<div class="container">
+<form>
+    <label for="Name">Name des Standorts</label>
+    <input type="text" id="Name" name="name" class="input" ><br>
+    <label for="stadt">Stadt</label>
+    <input type="text" id="stadt" name="stadt" class="input" ><br>
+    <label for="Strasse">Straße</label>
+    <input type="text" id="Strasse" name="strasse" class="input" ><br>
+    <label for="postal">Postleitzahl</label>
+    <input type="text" id="postal" class="input" name="postal"><br>
+    <button id="btn" onclick="Impfzentren()" type="button" value="impfzentren">Imfzentrum hinzufügen</button>
+</form>
+
+<br><br>
+    <div class="table-container">
+<table>
+    <thead>
+    <tr>
+        <th>Standorts</th>
+        <th>Stadt</th>
+        <th>Straße</th>
+        <th>Plz</th>
+
+    </tr>
+    </thead>
+    <tbody id="inhalt">
+
+
+    </tbody>
+</table>
+    </div>
+    </div>
+<script type="text/javascript"  src="impfzentren.js"></script>
+</body>
+</html>

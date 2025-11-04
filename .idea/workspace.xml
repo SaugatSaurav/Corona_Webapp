@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Corona_Webapp:war" />
+      <artifact name="Corona_Webapp:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70eb8439-bcb8-4e71-8220-c5441a21f581" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Corona_Webapp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SaugatSaurav&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SaugatSaurav/Corona_Webapp.git&quot;,
+    &quot;accountId&quot;: &quot;c3b6ce29-196c-4d0a-bce0-c20fb43e5df4&quot;
+  }
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2r6sDETFbGzPnruHifviDekWJzK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JavaScript Debug.impfung.html.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Smart Tomcat.MyTomcat.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/subed/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0.jar",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.16113281",
+    "project.structure.side.proportion": "0.56551725",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\subed\SWE_Projects_Intellij\Corona_Webapp\lib" />
+      <recent name="C:\Users\subed\SWE_Projects_Intellij\Corona_Webapp\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\subed\SWE_Projects_Intellij\Corona_Webapp\src\main\webapp" />
+      <recent name="C:\Users\subed\SWE_Projects_Intellij\Corona_Webapp\lib" />
+      <recent name="C:\Users\subed\SWE_Projects_Intellij\Corona_Webapp\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MyTomcat" type="com.poratu.idea.plugins.tomcat" focusToolWindowBeforeRun="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="adminPort" value="8012" />
+      <option name="catalinaBase" value="C:\Users\subed\.SmartTomcat\Corona_Webapp\Corona_Webapp" />
+      <option name="contextPath" value="/Corona_Webapp" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="port" value="8004" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.34" />
+          <option name="path" value="$PROJECT_DIR$/../apache-tomcat-10.1.34-windows-x64/apache-tomcat-10.1.34" />
+          <option name="version" value="10.1.34.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="Corona_Webapp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\subed\.SmartTomcat\Corona_Webapp\Corona_Webapp" />
+      <option name="contextPath" value="" />
+      <option name="docBase" value="" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.34" />
+          <option name="path" value="$PROJECT_DIR$/../apache-tomcat-10.1.34-windows-x64/apache-tomcat-10.1.34" />
+          <option name="version" value="10.1.34.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70eb8439-bcb8-4e71-8220-c5441a21f581" name="Changes" comment="" />
+      <created>1735890740965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735890740965</updated>
+      <workItem from="1735890742328" duration="100000" />
+      <workItem from="1735892442228" duration="27574000" />
+      <workItem from="1736360821631" duration="4184000" />
+      <workItem from="1736429598425" duration="11005000" />
+      <workItem from="1736458903738" duration="468000" />
+      <workItem from="1736459404533" duration="118000" />
+      <workItem from="1736531623353" duration="9786000" />
+      <workItem from="1736584791701" duration="12668000" />
+      <workItem from="1736671583946" duration="3219000" />
+      <workItem from="1736719027048" duration="75000" />
+      <workItem from="1736863116353" duration="14000" />
+      <workItem from="1736948113947" duration="853000" />
+      <workItem from="1737101266643" duration="15000" />
+      <workItem from="1737221270905" duration="1052000" />
+      <workItem from="1737379307192" duration="9340000" />
+      <workItem from="1737447520731" duration="6369000" />
+      <workItem from="1737631022784" duration="4522000" />
+      <workItem from="1737728409100" duration="14000" />
+      <workItem from="1737968965075" duration="197000" />
+      <workItem from="1737982171068" duration="17000" />
+      <workItem from="1738234977495" duration="1094000" />
+      <workItem from="1738314233910" duration="6348000" />
+      <workItem from="1738567551054" duration="603000" />
+      <workItem from="1738606291667" duration="8389000" />
+      <workItem from="1738654480690" duration="16195000" />
+      <workItem from="1738829174577" duration="16184000" />
+      <workItem from="1738922429814" duration="11223000" />
+      <workItem from="1738933730160" duration="548000" />
+      <workItem from="1739110664523" duration="2288000" />
+      <workItem from="1739257414742" duration="19039000" />
+      <workItem from="1739345812589" duration="18200000" />
+      <workItem from="1739456699603" duration="10881000" />
+      <workItem from="1739518921883" duration="18002000" />
+      <workItem from="1739642761923" duration="12354000" />
+      <workItem from="1739695215077" duration="21742000" />
+      <workItem from="1739776202636" duration="9139000" />
+      <workItem from="1739793613976" duration="284000" />
+      <workItem from="1739794174408" duration="3479000" />
+      <workItem from="1739815051366" duration="8518000" />
+      <workItem from="1739863290056" duration="13441000" />
+      <workItem from="1740058585798" duration="6462000" />
+      <workItem from="1740156476723" duration="336000" />
+      <workItem from="1740302474593" duration="24252000" />
+      <workItem from="1740410751200" duration="3654000" />
+      <workItem from="1740479683320" duration="9333000" />
+      <workItem from="1740491212224" duration="25994000" />
+      <workItem from="1740555699416" duration="18472000" />
+      <workItem from="1740738209660" duration="8837000" />
+      <workItem from="1740821398937" duration="10293000" />
+      <workItem from="1740907800955" duration="21476000" />
+      <workItem from="1740990882926" duration="18767000" />
+      <workItem from="1741080952126" duration="12859000" />
+      <workItem from="1741109624373" duration="148000" />
+      <workItem from="1741109787755" duration="3000" />
+      <workItem from="1741110697687" duration="9134000" />
+      <workItem from="1741166198722" duration="8892000" />
+      <workItem from="1741180693787" duration="6779000" />
+      <workItem from="1741191705582" duration="3610000" />
+      <workItem from="1741199153988" duration="4271000" />
+      <workItem from="1741203453183" duration="8263000" />
+      <workItem from="1741214166182" duration="790000" />
+      <workItem from="1741250241594" duration="3307000" />
+      <workItem from="1741261404051" duration="4677000" />
+      <workItem from="1741270584239" duration="811000" />
+      <workItem from="1741273481919" duration="6419000" />
+      <workItem from="1741283968503" duration="3003000" />
+      <workItem from="1741289913937" duration="3004000" />
+      <workItem from="1741365574989" duration="1340000" />
+      <workItem from="1741507901967" duration="9151000" />
+      <workItem from="1741523148600" duration="1945000" />
+      <workItem from="1741530605183" duration="11079000" />
+      <workItem from="1741709395375" duration="1220000" />
+      <workItem from="1741768104574" duration="1390000" />
+      <workItem from="1741869892546" duration="6000" />
+      <workItem from="1741888315495" duration="366000" />
+      <workItem from="1742120157066" duration="4244000" />
+      <workItem from="1742126015002" duration="3957000" />
+      <workItem from="1742319750867" duration="3265000" />
+      <workItem from="1742377778109" duration="13032000" />
+      <workItem from="1742397303679" duration="9765000" />
+      <workItem from="1742410025377" duration="3801000" />
+      <workItem from="1742414027577" duration="317000" />
+      <workItem from="1742416347110" duration="1059000" />
+      <workItem from="1742454998856" duration="29645000" />
+      <workItem from="1742542269583" duration="21198000" />
+      <workItem from="1742572558840" duration="234000" />
+      <workItem from="1742572945177" duration="4173000" />
+      <workItem from="1742581023874" duration="9457000" />
+      <workItem from="1742592312494" duration="958000" />
+      <workItem from="1742595097008" duration="4000" />
+      <workItem from="1742595114725" duration="3642000" />
+      <workItem from="1742631757718" duration="19345000" />
+      <workItem from="1742658923770" duration="1706000" />
+      <workItem from="1742660649468" duration="18832000" />
+      <workItem from="1742716758457" duration="2213000" />
+      <workItem from="1742718998344" duration="7123000" />
+      <workItem from="1742727365554" duration="5112000" />
+      <workItem from="1742732535701" duration="291000" />
+      <workItem from="1742732988089" duration="36000" />
+      <workItem from="1742733159923" duration="246000" />
+      <workItem from="1742807354904" duration="6492000" />
+      <workItem from="1742827855327" duration="24830000" />
+      <workItem from="1742890212024" duration="32914000" />
+      <workItem from="1742969970345" duration="11210000" />
+      <workItem from="1746709805457" duration="14000" />
+      <workItem from="1748975456681" duration="39000" />
+      <workItem from="1762248988936" duration="111000" />
+      <workItem from="1762249130533" duration="8769000" />
+      <workItem from="1762279417716" duration="122000" />
+      <workItem from="1762279557645" duration="241000" />
+      <workItem from="1762279865724" duration="392000" />
+      <workItem from="1762280339404" duration="37000" />
+      <workItem from="1762280677453" duration="402000" />
+      <workItem from="1762281094480" duration="23000" />
+      <workItem from="1762284583438" duration="310000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

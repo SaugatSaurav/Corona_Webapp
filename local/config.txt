@@ -1,0 +1,4 @@
+user=sausubedi
+webapp=docker-sausubedi-java
+manager=docker-sausubedi-manager
+baseurl=https://informatik.hs-bremerhaven.de

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Termin Buchen</title>
+    <link rel="stylesheet" type="text/css" href="login-registration.css">
+    <link rel="stylesheet" type="text/css" href="buchen.css">
+
+</head>
+<body>
+
+<div class="upper">
+
+    <h1>Termin Buchung</h1>
+
+</div>
+<header>
+    <img class="header-img" src="User.png" usemap="#logo" alt="LOGO">
+</header>
+    <nav>
+        <a href="listtermine.html">Ansehen</a>
+        <a href="#" class="active">Buchen</a>
+        <a href="logout" class="roll">Abmelden</a>
+
+    </nav>
+
+
+    <div class="container">
+        <div class="up">
+
+            <button id="leftup" name="leftup" value="go">Für Mich</button>
+            <button id="rightup" value="get" name="rightup">Für Andere</button>
+
+        </div><br>
+
+
+
+        <form>
+
+            <div id="extrainfo" style="display:none">
+
+            <label for="vname">Vorname</label><br>
+            <input type="text" name="vname" id="vname"  class="input"><br>
+
+            <label for="nname">Nachname</label><br>
+            <input type="text" name="nname" id="nname"  class="input"><br>
+
+                <label for="address">Addresse</label><br>
+                <input type="text" name="address" id="address"  class="input"><br>
+
+            </div>
+
+
+
+            <label for="datum">Termin Datum</label><br>
+            <input type="date" id="datum" name="datum" required class="input"  oninput="timeslot()"><br>
+
+            <label for="ort">Standort:</label><br>
+            <select id="ort" name="ort" required class="input"  onchange="all()">
+            </select>
+
+
+
+            <label for="impfung">Impfstoff</label><br>
+            <select id="impfung" name="impfung" required class="input">
+                <option value="">Impfstoff auswählen</option>
+            </select><br>
+
+
+            <label for="zeit">Uhrzeit</label><br>
+            <select id="zeit" name="zeit"  required class="input">
+                <option value="">Zeitslot auswählen</option>
+            </select>
+            <br>
+            <button type="submit" value="Buchen" onclick="Buchen()">Buchen</button>
+        </form>
+<!--        <p id="errors"></p>-->
+    </div>
+<script type="text/javascript" src="TerminBuchen.js"></script>
+
+</body>
+</html>

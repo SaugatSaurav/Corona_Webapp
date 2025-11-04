@@ -1,4 +1,0 @@
-#Corona Webapp wurde mithilfe Java Programmierung entwickelt. 
-
-Zuerst muss man in seinem Datenbanken sechs Tabellen erstellen, was in Datenbank.sql steht. 
-Danach muss man alle libraries benutzen, die in Lib Verzeichnis zur Verfügung ist. 

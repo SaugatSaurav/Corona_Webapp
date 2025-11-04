@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Seite</title>
+  <link rel="stylesheet" href="login-registration.css">
+</head>
+<body>
+
+  <div class="upper">
+    <h1>User Login</h1>
+  </div>
+  <header>
+    <img class="header-img" src="User.png" usemap="#logo" alt="LOGO">
+  </header>
+
+
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="registrieren.html">Registrieren</a>
+    <a href="#" class="active" >Einloggen</a>
+    <a href="admin_login.html" class="roll">Admin_Seite</a>
+
+  </nav>
+
+
+<div class="container">
+
+  <form action="userLoginServlet" method="post">
+
+    <label for="email">Email :</label>
+    <input type="text" id="email" name="email" required><br>
+    <label for="password">Passwort :</label>
+    <input type="password" id="password" name="password" required><br>
+    <button type="submit">Einloggen</button>
+  </form>
+<p id="error-container" class="error-container" style="color:red;
+    font-size: 20px;
+    font-family: Comic Sans MS">
+</p>
+
+
+</div>
+
+  <script>
+
+    const queryString = window.location.search;
+
+
+    const urlParams = new URLSearchParams(queryString);
+
+    const error= urlParams.get("error");
+    console.log("Error parameter:", error); // Debugging: Log the error parameter
+
+
+    if (error === "1") {
+      const errors = document.getElementById("error-container");
+      errors.textContent = "Falsche Email oder Passwort!";
+    }
+  </script>
+
+
+
+</body>
+</html>
+
