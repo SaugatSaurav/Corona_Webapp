@@ -1,1 +1,2 @@
-# Corona_Webapp
+#Corona Webapp wurde mithilfe Java Programmierung entwickelt.
+
