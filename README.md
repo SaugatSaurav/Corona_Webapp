@@ -41,8 +41,8 @@ Webanwendung zur Verwaltung und Buchung von Impfterminen.
 
 | Ordner    | Beschreibung                                          |
 | --------- | ----------------------------------------------------- |
-| `app/`    | HTML-, CSS- und JavaScript-Dateien sowie `WEB-INF`    |
-| `src/`    | Java-Quellcode, Servlets, Datenbank- und Hilfsklassen |
+| `app/`    | HTML, CSS und JavaScript Dateien sowie `WEB-INF`    |
+| `src/`    | Java-Quellcode, Servlets, Datenbank und Hilfsklassen |
 | `sql/`    | SQL-Datei zum Erstellen der Datenbanktabellen         |
 | `bin/`    | Skripte für Konfiguration, Build und Deployment       |
 | `lib/`    | Benötigte Java-Bibliotheken                           |
