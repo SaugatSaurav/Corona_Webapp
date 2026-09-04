@@ -32,7 +32,6 @@ CREATE TABLE Zeitslot (
     id INT AUTO_INCREMENT PRIMARY KEY,
     start_time TIMESTAMP ,
     end_time Timestamp,
-    capacity INT ,
     Center_id INT ,
     FOREIGN KEY (Center_id) REFERENCES impfzentren(id)
 );
@@ -53,5 +52,5 @@ CREATE TABLE buchung (
     FOREIGN KEY (user_id) REFERENCES user(id),
     FOREIGN KEY (impfzentrum_id) REFERENCES impfzentren(id),
     FOREIGN KEY (impfstoff_id) REFERENCES impfung(id),
-    FOREIGN KEY (timeslot_id) REFERENCES zeitslot(id)
+    FOREIGN KEY (timeslot_id) REFERENCES Zeitslot(id)
 );
