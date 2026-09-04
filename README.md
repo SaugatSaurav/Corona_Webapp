@@ -1,2 +1,3 @@
 # Corona_Webapp
-Admin Anmeldedaten: admin@gmail.com   Admin123
+Manager Anmeldedaten: admin@gmail.com   Admin123
+Mitarbeiter Anmeldedaten: thomas@gmail.com   Thomas123
