@@ -1,4 +1,4 @@
-user=swe3-2023-08
-webapp=docker-swe3-2023-08-java
-manager=docker-swe3-2023-08-manager
+user=
+webapp=
+manager=
 baseurl=https://informatik.hs-bremerhaven.de
