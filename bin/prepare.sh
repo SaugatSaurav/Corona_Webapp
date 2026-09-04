@@ -2,4 +2,4 @@
 source local/config.txt || exit 1
 mkdir -p build target
 echo "PREPARE"
-cp -r src/main/webapp/* build
+cp -r app/* build

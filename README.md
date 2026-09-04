@@ -1,13 +1,18 @@
-#Corona Webapp wurde mithilfe Java Programmierung entwickelt.
+# Corona_Webapp
 
-Funktionsweise:
-Das System unterscheidet zwischen zwei Benutzerrollen: Admin und User.
-Admin: Hat Zugriff über einen festen Benutzernamen und Passwort. Der Admin kann zentrale Verwaltungsfunktionen ausführen, wie z. B. das Hinzufügen von Impfzentren, Impfungen und Zeitslots.
-User: Kann sich auf der Webseite registrieren und einloggen. Nach der Anmeldung kann der User:
-Termine für sich selbst oder für bis zu drei weitere Personen buchen,
-Einen QR-Code und eine E-Mail-Bestätigung der Buchung erhalten.
+# swe3-2024-17
+## before you start
+run bin/configure.sh
 
-Was muss tun:
-Zuerst muss man die Datenbanken(z.B mySQL) in External Libraries hinzufügen.
-Danach muss man die Libraries, was in lib verzeichnis gibt, auch in External Libraries hinzufügen.
-Am Ende muss man alle Datenbanken Tabellen, die in scr/main/webapp/Datenbanken.sql liegt, erstellen.
+to get config data from hopper
+into local
+
+## build cycle
+bin/build.sh
+- bin/prepare.sh
+- bin/compile.sh
+- bin/assemble.sh
+- bin/deploy.sh
+
+## to clean build and target
+bin/clean.sh

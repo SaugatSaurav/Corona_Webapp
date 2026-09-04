@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vaccines</title>
+    <link rel="stylesheet" type="text/css" href="admin.css">
+<script src="session-check.js"
+        data-login="admin_login.html">
+</script>
+
+</head>
+<body>
+
+<div class="upper">
+    <h1>Zeitslot verwalten</h1></div>
+<header>
+    <img class="header-img" src="go.png" usemap="#logo" alt="LOGO">
+</header>
+
+<nav>
+    <a href="Admin_dashboard.html">Startseite</a>
+    <a href="impfzentren.html" >Impfzentren Verwalten</a>
+    <a href="impfung.html" >Impfstoffe Verwalten</a>
+    <a href="Impfzentrum_impfung.html">Impfzentrum-Impfung</a>
+    <a href="#" class="active">Zeitslot verwalten</a>
+
+    <a href="logout" class="roll">Abmelden</a>
+</nav>
+
+</div>
+<!--
+<div class="container">
+
+        <label for="date">Datum</label>
+        <input type="date" class="input" id="date" name="date" oninput="Timeslot()"><br>
+
+    <form>
+        <label for="startHours"> Start-Uhrzeit</label>
+        <select id="startHours">
+        </select>:
+        <select id="startMinutes">
+        </select> <br>
+
+        <label for="endHours"> End-Uhrzeit</label>
+        <select id="endHours">
+        </select>:
+        <select id="endMinutes">
+        </select> <br>
+
+
+        <label for="center_id">Impfzentren_id</label>
+        <input type="text" id="center_id" name="center_id" class="input"  placeholder="zB. 1/2/..." required>
+
+        <br>
+        <br>
+        <button id="btn" type="button" onclick="alltimeslot()">Zeitfenster hinzufügen</button>
+
+    </form>
+    <br>
+    <br>
+<hr>
+
+    <h3 style="color:green">Zum Anschauen des hinzugefügte Timeslot für ausgewählte Impzentrum:</h3>
+    <h4 style="color:green">Wähle zuerst das Datum oben und id von Impzentrum hier unten</h4><br>
+    <label for="impfid">Impfzentren Id:</label>
+    <select id="impfid" oninput="Timeslot()" class="input">
+
+        <option value="">Impfzentren auswählen</option>
+    </select><br>
+   <p id="availableSummary">
+    Freie Kapazität: 0
+   </p>
+    <table>
+        <thead>
+        <tr>
+            
+            <th>StartZeit</th>
+            <th>Endzeit</th>
+
+        </tr>
+        </thead>
+
+        <tbody id="inhalt">
+
+
+        </tbody>
+    </table>
+
+</div>
+-->
+
+
+<div class="container">
+
+    <label for="date">Datum</label>
+    <input
+            type="date"
+            class="input"
+            id="date"
+            name="date"
+            required
+    >
+    <br>
+
+    <form>
+        <label for="startTime">Start-Uhrzeit</label>
+        <select id="startTime" class="input" required>
+        </select>
+        <br>
+
+        <label for="endTime">End-Uhrzeit</label>
+        <select id="endTime" class="input" required>
+        </select>
+        <br>
+
+        <label for="center_id">Impfzentrum</label>
+        <select id="center_id" class="input" required>
+            <option value="">
+                Impfzentrum auswählen
+            </option>
+        </select>
+        <br><br>
+
+        <button
+                id="btn"
+                type="button"
+                onclick="addTimeslots()"
+        >
+            Zeitslots hinzufügen
+        </button>
+    </form>
+
+    <br><br>
+    <hr>
+
+    <h3 style="color:green">
+        Hinzugefügte und verfügbare Zeitslots
+    </h3>
+
+    <label for="impfid">
+        Impfzentrum:
+    </label>
+
+    <select id="impfid" class="input">
+        <option value="">
+            Impfzentrum auswählen
+        </option>
+    </select>
+
+    <p
+            id="availableSummary"
+            style="font-size:20px; font-weight:bold; color:green"
+    >
+        Freie Kapazität: 0
+    </p>
+
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Startzeit</th>
+            <th>Endzeit</th>
+        </tr>
+        </thead>
+
+        <tbody id="inhalt">
+        </tbody>
+    </table>
+
+</div>
+
+
+<script type="text/javascript" src="Timeslot.js"></script>
+</body>
+</html>
