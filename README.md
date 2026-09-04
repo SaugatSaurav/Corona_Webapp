@@ -92,8 +92,6 @@ mail.smtp.port=587
 mail.smtp.ssl.trust=smtp.gmail.com
 ```
 
-Für Gmail muss ein App-Passwort verwendet werden. Das echte App-Passwort darf nicht in GitHub hochgeladen werden.
-
 ## Projekt bauen und bereitstellen
 
 Der komplette Build einschließlich Deployment wird mit folgendem Befehl ausgeführt:
