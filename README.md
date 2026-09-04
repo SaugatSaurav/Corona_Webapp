@@ -67,7 +67,7 @@ Zuerst muss eine MariaDB-Datenbank erstellt werden. Danach können die Tabellen 
 mariadb -u DEIN_DB_BENUTZER -p DEINE_DATENBANK < sql/CreateTable.sql
 ```
 
-Die Datenbank-Zugangsdaten müssen lokal konfiguriert werden. Echte Benutzernamen und Passwörter dürfen nicht in GitHub gespeichert werden.
+Die Datenbank-Zugangsdaten müssen lokal konfiguriert werden.
 
 ## Lokale Konfiguration
 
